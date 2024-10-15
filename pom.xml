@@ -17,17 +17,17 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-3-95-218-60.compute-1.amazonaws.com:8081/repository/harish-repo-snapshot/</url>
+		    <url>http://ec2-18-234-99-86.compute-1.amazonaws.com:8081/repository/hari-repo-snapshot//</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://ec2-3-95-218-60.compute-1.amazonaws.com:8081/repository/harish-repo-release/</url>
+		    <url></url>
 		</repository>
   	</distributionManagement>
     
     <build>
-        <plugins>
+        <plugins>http://ec2-18-234-99-86.compute-1.amazonaws.com:8081/repository/hari-repo-release/</url>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
